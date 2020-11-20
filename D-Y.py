@@ -1,0 +1,12 @@
+from pafy import new
+print("====================")
+print("program by MrXD")
+print("snap:ss75sa")
+print("====================")
+print("1-pip install pafy")
+print("2-install youtube.dl")
+print("====================")
+url = input('enter you link here: ')
+video = new(url)
+dl = video.getbest()
+dl.download()
